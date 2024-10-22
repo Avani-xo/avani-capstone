@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Nabla&family=Share+Tech+Mono&family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Share+Tech+Mono&family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=copyright" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone-2</title>
+    <style>
+        #home{
+            background-color: #ffffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        nav{
+            background-color: #9422d5;
+            display: flex;
+            border-radius: 30px;
+        }
+        .hcontainer{
+            background-color: #9422d5;
+            height: 600px;
+        }
+        #id a{
+          color: #ffffff;
+        }
+        .sbar{
+          position: relative;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          padding-left: 4rem;
+          }
+          .hey{
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 800;
+            
+            
+          }
+          .intro{
+            margin-top: 5rem;
+          }
+          .intro>h1{
+            
+            font-family: "Iceberg", sans-serif;
+            font-weight: 600;
+            text-decoration: underline;
+            font-size: 40px;
+
+          
+
+          }
+          .intro-cont{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            padding: 5rem;
+            gap: 50px;
+          }
+          .intro >div div{
+            background-color: #9422d5;
+            padding: 3rem;
+            border-radius: 30px;
+            
+          }
+          .cont2{
+            color: #ffffff;
+            height: fit-content;
+            
+            font-family: "Share Tech Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+            
+          }
+          .my{
+            color: #fadc63;
+            height: 24rem;
+            font-family: "Share Tech Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+          }
+          #skills{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5rem;
+          }
+         
+          .part{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+          }
+          .part img{
+            height: 10rem;
+            width: 45rem;
+            
+          }
+          .part2 img{
+            border-radius: 30px;
+          }
+          #project{
+            padding-top: 4rem;
+
+          }
+          .proj1{
+            height: 200px;
+
+          }
+          #project .proj3{
+            font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+    font-size: 80px;
+          }
+          .proj2{
+            background-color: #9422d5;
+            padding-bottom: 0.5rem;
+          }
+          .p1{
+            margin: 7rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+          }
+          .pr{
+            background-color: #9422d5;
+            width: 40rem;
+            padding: 1rem;
+            color: #ffffff;
+            border-radius: 20px;
+            height: min-content;
+            
+          }
+          .pr a{
+            font-family: "Silkscreen", sans-serif;
+  
+  font-style: normal;}
+  .pr h2{
+    font-family: "Share Tech Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  color: #fadc63;
+  }
+          
+          .proj4{
+            display: flex;
+            
+            
+          }
+          .conta1{
+            font-family: "Share Tech Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+          }
+          .conta1 h1{
+            color: #ffffff;
+            font-family: "Silkscreen", sans-serif;
+  
+  font-style: normal;
+          }
+          .conta1 p{
+            color: #fadc63;
+            font-size: 20px;
+            
+          }
+          .but{
+            display: flex;
+            justify-content: center;
+          }
+          .conta1 button{
+            background-color: #fadc63;
+            font-weight: 800;
+          }
+          .footer{
+            background-color: #fadc63;
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+            display: flex;
+            justify-content: center;
+            font-family: "Turret Road", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+          }
+          .arrow{
+            color: #ffffff;
+            font-size: 20px;
+          }
+          
+    </style>
+</head>
+<body>
+    
+    <section id="home" class="badge container-xl" style="width: 100%;">
+      <nav id="nav" class="navbar navbar-expand-lg container-lg py-2  my-3">
+        <div class="container-fluid">
+          <a class="navbar-brand bs-body-tertiary" href="#"><i class="fa-solid fa-house"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+          </button>
+          <div class="collapse navbar-collapse collapse-horizontal" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#introduction">About me</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link active" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#contact">Contact us</a>
+              </li>
+              
+                
+              </li>
+            
+            </ul>
+            <div class="sbar" style="width: 15rem;">
+            <form class="d-flex" role="search" >
+              
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+             
+            </form></div>
+          </div>
+        </div>
+      </nav>
+        <div class="hcontainer container-md" style="display: flex; justify-content: center; align-items: center;">
+          <img style="height: 600px;" class="rounded float-start" src="./366e5ca2cd0bc0d693c1c3ab142b2195.svg" alt="">
+          <div>
+        <h1 class="hey" style="padding-right: 12rem; padding-bottom: 1rem; font-size: 100px; ">Hey,</h1>
+        <h2 style="padding-right: 10rem; font-family: serif; font-style: italic;">It's Avani. </h2>
+        <h2 style="font-family: serif; font-style: italic;">I'm a Web Deve<span style="color: #fadc63; font-weight: bold;">lover</span></h2>
+        
+      </div>
+    </div>
+    </section>
+
+    <section id="introduction" class="intro  container-xl">
+      <h1 class="text-center">INTRODUCTION</h1>
+      <div class="intro-cont">
+      <div class="cont2" style="grid-column: span 2;">
+        <h2>I am a student, learning and growing in creating responsive web-pages. I have
+          learnt a lot during the process. 
+          
+           You can find more about me via:   <a class="link-light link-offset-2 link-underline-warning link-underline-opacity-100 link-underline-opacity-100-hover" href="https://avani-xo.github.io/about-me/">About me Link</a> <br>
+          
+          You can also visit my Github profile through:   <a class="link-light link-offset-2 link-underline-warning link-underline-opacity-100 link-underline-opacity-100-hover" href="https://github.com/Avani-xo">Github Link</a>. <br>
+          
+          Besides this, I love dogs and babies, thus puppies are a best combo of these two
+          for me.</h2>
+      </div>
+      <div class="my">
+       <h2> My Qualifications</h2><br>
+        <h3><ul>
+        <li>B.Tech II Year</li>
+        <li>10+2 CBSE Boards</li>
+        <li>10th CBSE Boards</li>
+        </ul></h3>
+      </div>
+      <div class="my">
+        <h2> My Certifications</h2><br>
+        <h3>
+          <ul>
+        
+          <li>Soft Skills, NPTEL</li>
+        <li>Python Automation, IBM</li>
+        <li>Cloud Computing, IBM</li>
+        </ul></h3>
+      </div></div>
+    </section>
+    <section id="skills">
+      <div class="skill-cont1">
+        <img class="rounded mx-auto d-block" src="./Screenshot 2024-10-22 000938.png" alt="">
+
+      </div>
+      <div class="part pb-5">
+        <div class="part1 rounded">
+          <img src="./Screenshot 2024-10-22 003559.png" alt="">
+        </div>
+        <div class="part2">
+          <img class="rounded float-end" src="./Screenshot 2024-10-22 003652.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="project">
+      <img class="proj1 rounded float-start" src="./proj.png" alt="">
+      <div class="proj2">
+      <h1 class="proj3" >Projects</h1></div>
+      <div class="proj4">
+        <div class="p1">
+      <div class="pr r1">
+        <h1><a class="link-light link-offset-2 link-underline-warning link-underline-opacity-100 link-underline-opacity-100-hover" href="https://avani-xo.github.io/portfolio/">MY PORTFOLIO WEBSITE</a></h1>
+        <h2>You can find all my projects i had made as a
+          beginner Just by clicking on the link above.</h2>
+      </div>
+      
+      <div class="pr r2">
+        <h1><a class="link-light link-offset-2 link-underline-warning link-underline-opacity-100 link-underline-opacity-100-hover"  href="https://avani-xo.github.io/TinDOG/">TINDOG</a></h1>
+        <h2>Click to visit my fun testing website for dogs where  you can
+          find dogs of any breed you’d like. ( I prefer
+          Golden Retrievers )</h2>
+      </div>
+      <div class="pr r3">
+        <h1><a class="link-light link-offset-2 link-underline-warning link-underline-opacity-100 link-underline-opacity-100-hover" href="https://avani-xo.github.io/capstone-project/">CAPSTONE WEBSITE</a></h1>
+        <h2>Here is link to my online resume ( as a website ).</h2>
+      </div>
+    </div>
+    <div class="primg container-lg mr-5">
+      <div class="white" style="height: 400px;"></div>
+      <img style="height: 300px;" src="./projimg.svg" alt="">
+    </div>
+  </div>
+    </section>
+<section id="contact">
+  <div class=" conta1 h-100 p-5 border rounded-3" style="background-color: #9422d5;">
+    <h1 class="text-center">Contact Me</h1>
+    
+    <p class="px-5 text-center">E-mail: upadhyayavani193@gmail.com <br>
+
+      Mobile: +91-700-0036-985 <br>
+      
+      LinkedIn: Avani Upadhyay <br>
+      
+      Instagram: @avaniup_ <br>
+      
+      Address: 06 Aakash Apartment, 5A/1 Old Palasia, Indore Madhya Pradesh</p>
+    <div class="but">
+      <a href="https://www.linkedin.com/in/avani-upadhyay-52bb2622b/"><button class="button button--dione p-2"><span>LinkedIn</span></button></a></div>
+      <i class="fa-solid fa-arrow-up arrow"></i><a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#home"> Page-up</a>
+</section>
+<section class="footer">
+ <p> <i class="fa-regular fa-copyright"></i>    Avani Upadhyay  |  All Rights Reserved</p>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+     </script>
+     <script src="https://kit.fontawesome.com/8a0ba327d0.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
